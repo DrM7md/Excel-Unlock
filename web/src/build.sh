@@ -18,7 +18,7 @@ mkdir -p "$PROJ/web"
 <title>Excel Unlock</title>
 <style>
 HEAD
-  cat "$PROJ/src/styles.css"
+  cat web-styles.css
   echo '</style></head><body>'
   cat body.html
   echo '<script>'; cat node_modules/jszip/dist/jszip.min.js; echo ''; echo '</script>'
