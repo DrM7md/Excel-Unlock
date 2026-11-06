@@ -1,0 +1,15 @@
+# Rust build output
+/src-tauri/target/
+/src-tauri/gen/
+
+# Node
+node_modules/
+
+# Build artifacts
+*.exe
+*.msi
+*.app
+
+# OS
+Thumbs.db
+.DS_Store
